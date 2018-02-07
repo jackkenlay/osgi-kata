@@ -1,5 +1,13 @@
 # OSGI Kata/Coding Challenge (WIP)
 
+## About
+A number of challenges that build up an OSGi service.
+
+## Prerequisites
+* Archetype (not necessary) (here)[https://github.com/jackkenlay/osgi-archetype]
+* IDE
+* (Apache Karaf)[https://karaf.apache.org/]
+
 ## First Stage: 
 Uninstall old Kata projects first to avoid confusion
 Make a service called ‘my-osgi-app’ that runs on Karaf
