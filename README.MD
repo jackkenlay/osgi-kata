@@ -27,5 +27,14 @@ Create 4 more services in the ‘time-keeper’ app. They all have a name, which
 ## Sixth Stage:
 The calculator app that Alex has done.
 
-Seventh Stage:
+## Seventh Stage:
 Add another service to Alex’s calculator.
+
+## Useful Commands (Maven)
+* ```mvn clean install -U```
+
+## Useful Commands (Karaf):
+* ```bin/karaf```
+* ```halt```
+* ```bundle:install mvn:com.something/articfact-id/version```
+* ```bundle:update (bundle number)```
