@@ -4,7 +4,7 @@
 A number of challenges that build up an OSGi service.
 
 ## Prerequisites
-* Archetype (not necessary) [here](https://github.com/jackkenlay/osgi-archetype)
+* My OSGi Maven [Archetype](https://github.com/jackkenlay/osgi-archetype) (not necessary)
 * IDE
 * [Apache Karaf](https://karaf.apache.org/)
 
