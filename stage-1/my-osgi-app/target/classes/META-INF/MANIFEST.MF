@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1518086924535
+Build-Jdk: 1.8.0_151
+Built-By: jackkenlay
+Bundle-ManifestVersion: 2
+Bundle-Name: my-osgi-app
+Bundle-SymbolicName: com.ensemble.my-osgi-app
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.ensemble;version="1.0.0"
+Provide-Capability: osgi.service;objectClass:List<String>="com.ensemble.
+ MyOSGiApp"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.ensemble.MyOSGiApp.xml
+Tool: Bnd-3.3.0.201609221906
