@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1518090874627
+Build-Jdk: 1.8.0_151
+Built-By: jackkenlay
+Bundle-ManifestVersion: 2
+Bundle-Name: my-osgi-app
+Bundle-SymbolicName: com.ensemble.my-osgi-app
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.ensemble;version="1.0.0"
+Provide-Capability: osgi.service;objectClass:List<String>="com.ensemble.
+ MyOSGiApp",osgi.service;objectClass:List<String>="com.ensemble.TimeKeep
+ er"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compone
+ nt)(version>=1.3.0)(!(version>=2.0.0)))",osgi.service;filter:="(objectC
+ lass=com.ensemble.TimeKeeper)";effective:=active,osgi.ee;filter:="(&(os
+ gi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.ensemble.MyOSGiApp.xml,OSGI-INF/com.ense
+ mble.TimeKeeper.xml
+Tool: Bnd-3.3.0.201609221906
