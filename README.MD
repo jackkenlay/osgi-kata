@@ -32,9 +32,11 @@ A number of challenges that build up an OSGi service.
 
 ## Useful Commands (Maven)
 * ```mvn clean install -U```
+* ```rm -rf ~/.m2/repository/(repository name)```
 
 ## Useful Commands (Karaf):
 * ```bin/karaf```
 * ```halt```
 * ```bundle:install mvn:com.something/articfact-id/version```
 * ```bundle:update (bundle number)```
+* ```list```
