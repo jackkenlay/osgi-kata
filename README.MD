@@ -13,10 +13,13 @@ A number of challenges that build up an OSGi service.
 * Make a service called ‘my-osgi-app’ that runs on Karaf
 
 ## Second Stage: 
-* Make a second service called ‘time-keeper’, it will have a function called printSomething(String input) which will be called from the ‘my-osgi-app’ service and will print a string.
+* Make a second service called ‘time-keeper’
+  * it will have a function called printSomething(String input) which will be called from the ‘my-osgi-app’ service and will print a string.
 
 ## Third Stage: 
-* Create a gui for my-osgi-app. It needs a text field and a button. Ensure this is shown when you start your service
+* Create a gui for my-osgi-app. 
+  * It needs a text field and a button. 
+  * Ensure this is shown when you start your service
 
 ## Fourth Stage:
 * When you press the button in my-osgi-app, it retreives the time from ‘time-keeper’ and displays it in the textfield
