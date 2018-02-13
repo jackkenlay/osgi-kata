@@ -25,7 +25,10 @@ A number of challenges that build up an OSGi service.
 * When you press the button in my-osgi-app, it retreives the time from ‘time-keeper’ and displays it in the textfield
 
 ## Fifth Stage:
-* Create 4 more services in the ‘time-keeper’ app. They all have a name, which is gettable. For each component of this type, display 4 buttons in the ‘my-osgi-app’ with their names. Open the web console for Karaf and when you stop/start the components the buttons should disable/enable on your ‘my-osgi-app’ GUI.
+* Create 4 more services in the ‘time-keeper’ app, ServiceA ServiceB ServiceC ServiceD
+ * For each component:
+  * display 4 buttons in the ‘my-osgi-app’ with their names. 
+  * Open the web console for Karaf and when you stop/start the components the buttons should disable/enable on your ‘my-osgi-app’ GUI.
 
 ## Sixth Stage:
 * The calculator app that Alex has done.
