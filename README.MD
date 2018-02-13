@@ -36,7 +36,7 @@ A number of challenges that build up an OSGi service.
 ## Seventh Stage:
 * Add another service to Alex’s calculator.
 
-## Useful Commands (Maven)
+## Useful Commands (Maven):
 * ```mvn clean install -U```
 * ```rm -rf ~/.m2/repository/(repository name)```
 
