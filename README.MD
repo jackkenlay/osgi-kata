@@ -26,15 +26,26 @@ A number of challenges that build up an OSGi service.
 
 ## Fifth Stage:
 * Create 4 more services in the ‘time-keeper’ app, ServiceA ServiceB ServiceC ServiceD:
-  * For each component:
-    * display 4 buttons in the ‘my-osgi-app’ with their names. 
-    * Open the web console for Karaf and when you stop/start the components the buttons should disable/enable on your ‘my-osgi-app’ GUI.
+  * Each component:
+    * Must implement an interface called TimeKeeperService.
+    * Must have a method called printWhoYouAre() which prints the service's name.
+  * In my-osgi-service, make it so as each TimeKeeperService goes offline/online, it calls printWhoYouAre() on the service.
+  * Open the web console for Karaf and when you stop/start the components then they should print to console.
 
-## Sixth Stage:
-* The calculator app that Alex has done.
+## Six Stage:
+* Display 4 buttons in the ‘my-osgi-app’ with the names of the services in the time-keeper service.
+* Make it so that when each service is activated/deactivated, the buttons deactivate/activate.
+* Test using web console.
 
 ## Seventh Stage:
+* The calculator app that Alex has done.
+
+## Eight Stage:
 * Add another service to Alex’s calculator.
+
+## Ninth Stage:
+* Make it like an AEM service (WIP)
+
 
 ## Useful Commands (Maven):
 * ```mvn clean install -U```
