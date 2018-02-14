@@ -40,3 +40,7 @@ A number of challenges that build up an OSGi service.
 * ```bundle:install mvn:com.something/articfact-id/version```
 * ```bundle:update (bundle number)```
 * ```list```
+* ```feature:install scr```
+* ```scr:list```
+* ```feature:install webconsole```
+* ```http://localhost:8181/system/console/components (user:karaf/password:karaf)```

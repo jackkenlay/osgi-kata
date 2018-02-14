@@ -6,6 +6,7 @@ import org.osgi.service.component.annotations.Deactivate;
 
 @Component(service = MyOSGiApp.class, immediate = true)
 public class MyOSGiApp {
+
     @Activate
     public void activate() {
         System.out.println("My OSGi MyOSGiApp: Component Activated");
