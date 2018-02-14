@@ -22,10 +22,11 @@ A number of challenges that build up an OSGi service.
   * Ensure this is shown when you start your service
 
 ## Fourth Stage:
-* When you press the button in my-osgi-app, it retreives the time from ‘time-keeper’ and displays it in the textfield
+* When you press the button in my-osgi-app, it retrieves the time from ‘time-keeper’ and displays it in the textfield
 
 ## Fifth Stage:
-* Create 4 more services in the ‘time-keeper’ app, ServiceA ServiceB ServiceC ServiceD:
+* Create an interface in the 'time-keeper' class. It will have a void method called printWhoYouAre()
+* Create 4 more services in the ‘time-keeper’ class, ServiceA ServiceB ServiceC ServiceD.
   * Each component:
     * Must implement an interface called TimeKeeperService.
     * Must have a method called printWhoYouAre() which prints the service's name.
@@ -44,7 +45,7 @@ A number of challenges that build up an OSGi service.
 * Add another service to Alex’s calculator.
 
 ## Ninth Stage:
-* Make it like an AEM service (WIP)
+* Make it like an AEM service (WIP).
 
 
 ## Useful Commands (Maven):
