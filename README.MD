@@ -22,6 +22,7 @@ A number of challenges that build up an OSGi service.
   * Ensure this is shown when you start your service
 
 ## Fourth Stage:
+* Create function getTheTime() in the time-keeper app that returns the time (as a string)
 * When you press the button in my-osgi-app, it retrieves the time from ‘time-keeper’ and displays it in the textfield
 
 ## Fifth Stage:
