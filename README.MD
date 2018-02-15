@@ -26,7 +26,7 @@ A number of challenges that build up an OSGi service.
 * When you press the button in my-osgi-app, it retrieves the time from ‘time-keeper’ and displays it in the textfield
 
 ## Fifth Stage:
-* Create an interface in the 'time-keeper' class called TimeKeeperService. It will have a void method called printWhoYouAre()
+* Create a public interface in the 'time-keeper' project called TimeKeeperService. It will have a void method called printWhoYouAre()
 * Create 4 more services in the ‘time-keeper’ class, ServiceA ServiceB ServiceC ServiceD.
   * Each component:
     * Must implement TimeKeeperService.
