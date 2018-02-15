@@ -26,11 +26,11 @@ A number of challenges that build up an OSGi service.
 * When you press the button in my-osgi-app, it retrieves the time from ‘time-keeper’ and displays it in the textfield
 
 ## Fifth Stage:
-* Create an interface in the 'time-keeper' class. It will have a void method called printWhoYouAre()
+* Create an interface in the 'time-keeper' class called TimeKeeperService. It will have a void method called printWhoYouAre()
 * Create 4 more services in the ‘time-keeper’ class, ServiceA ServiceB ServiceC ServiceD.
   * Each component:
-    * Must implement an interface called TimeKeeperService.
-    * Must have a method called printWhoYouAre() which prints the service's name.
+    * Must implement TimeKeeperService.
+    * Must print service name when printWhoYouAre() is called.
   * In my-osgi-service, make it so as each TimeKeeperService goes offline/online, it calls printWhoYouAre() on the service.
   * Open the web console for Karaf and when you stop/start the components then they should print to console.
 
